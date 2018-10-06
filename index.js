@@ -1,11 +1,10 @@
-// Write your code in this file!
 function scuberGreetingForFeet(feet) {
   let result;
-  if feet <= 400 {
+  if (feet <= 400) {
     result = 'This one is on me!';
-  } else if feet > 2500 {
+  } else if (feet > 2500) {
     result = 'No can do.';
-  } else if feet > 2000 {
+  } else if (feet > 2000) {
     result = 'I will gladly take your thirty bucks.';
   }
   return result;
@@ -13,7 +12,7 @@ function scuberGreetingForFeet(feet) {
 
 function ternaryCheckCity(city) {
   let result;
-  if city === 'NYC' {
+  if (city === 'NYC') {
     result = 'Ok, sounds good.';
   } else {
     result = 'No go.';
@@ -23,9 +22,9 @@ function ternaryCheckCity(city) {
 
 function switchOnCharmFromTip(tip) {
   let result;
-  if tip === 'generous' {
+  if (tip === 'generous') {
     result = 'Thank you so much.';
-  } else if tip === 'not as generous' {
+  } else if (tip === 'not as generous') {
     result = 'Thank you.';
   } else {
     result = 'Bye.';
